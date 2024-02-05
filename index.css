@@ -50,6 +50,7 @@
     width: 100%;
     height: 5px;
     border: none;
+    text-decoration: none;
     
 }
 .menubar,
@@ -60,18 +61,18 @@ ul {
     background-color: var(--darkblue);
     font-weight: bold;
     border: none;
-    
+    text-decoration: none;
 }
-.menubar,
-ul:hover {
-    color: var(--darkblue);
-    background-color: var(--darkblue);
-    border-bottom: 2px solid var(--yellow);
-    transition: 2s;
-}
+.hlinks:hover {
+        color: var(--darkblue);
+        background-color: var(--darkblue);
+        transition: 2s;
+    }
+
 .menubar,
 ul,
 li {
+    text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
     padding-left: 10px;
@@ -84,6 +85,9 @@ li {
     margin-top: 3rem;
     padding-bottom: 3rem;
     overflow: hidden;
+    text-decoration: none;
+    font-weight: bold;
+
     
 }
 nav {
@@ -96,6 +100,11 @@ nav {
     top: 3.5rem;
     ul {
         background-color: var(--white);
+        text-decoration: none;
+    }
+    a:hover { border-bottom: 2px solid var(--yellow);
+        color: var(--blue);
+        transition: 2s;
     }
 }
 nav,
@@ -143,7 +152,7 @@ ul {
     text-align: center;
 }
 .overlay {
-   background-image: url(bcit-big-info\(1\).png);
+   
     position: absolute;
     color: var(--white);
 
@@ -201,4 +210,3 @@ button:hover {
         - have appropriate font size and weight
         - be placed sufficiently far enough away from the top and left edges of the section
 
-*/ */
